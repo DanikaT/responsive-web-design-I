@@ -1,3 +1,243 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+body {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+       margin: 0;
+    }
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.header-area {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+   padding:20px;
+   margin-left: 0;
+   margin-right: 0;
+   
+}
+
+@media only screen and (max-width: 500px) {
+    .logo-img{
+        margin-bottom: 1rem;
+      }
+}
+
+@media only screen and (max-width: 500px) {
+    .header-area {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header-area {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-bar {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+     margin: 0;
+     width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-bar a:first-child {
+        text-align: center;
+      }
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-bar a:last-child {
+        padding-right: 0;
+      }
+}
+
+.nav-bar a {
+    text-decoration: none;
+    padding: 30px;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+@media only screen and (max-width: 500px) {
+    .nav-bar a {
+     border-top: 1px solid black;
+     border-bottom:1 px solid black;
+     padding: 1rem;
+     width: 100%;
+     margin: 0;
+    }
+}
 
 
+.nav-bar a:first-child {
+    padding-left: 0;
+  }
+
+
+
+.logo-img {
+    padding-right: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .logo-img {
+       padding-bottom: 30px;
+    }
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    padding-bottom: 5rem;
+}
+
+@media only screen and (max-width: 800px) {
+    .header-content {
+       padding-top: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .header-image {
+       display: none;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .header-image {
+       display: none;
+    }
+}
+
+.cta-button {
+    border: 1px solid black;
+    font-size: 1.2rem;
+   display: inline-block;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem
+  
+}
+
+
+.content {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+@media only screen and (max-width: 500px) {
+    .content {
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+}
+
+@media only screen and (max-width: 500px) {
+    .main-content-top {
+        display: flex;
+       flex-direction: column;
+    }
+}
+
+.main-content-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.7rem;
+}
+
+.features {
+    padding-right: 1rem;
+}
+
+.main-content-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.img-stretch {
+    flex-grow: 1;
+}
+
+@media only screen and (max-width: 500px) {
+    .img-stretch{
+       max-width: 100%;
+       height: 0, auto;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .img-stretch{
+       max-width: 100%;
+       height: 0, auto;
+    }
+}
+
+.main-content-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .main-content-bottom{
+        flex-direction: column;
+      }
+}
+
+.services {
+    padding-right: 2rem;
+}
+
+.projects {
+    padding-right: 2rem;
+}
+
+@media only screen and (max-width: 500px) {
+    .bottom-content{
+        padding-left: 1rem;
+      }
+}
+
+@media only screen and (max-width: 800px) {
+    .boxes {
+        padding: 10px;
+    }
+    
+}
+
+footer {
+display: flex;
+justify-content: center;
+align-items: center;
+}
